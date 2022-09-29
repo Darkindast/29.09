@@ -23,7 +23,8 @@ double f2(double x, double e){
     double x0 = 1;
     double sum = x0;
     int i = 1;
-    double y = x*x;
+    double y;
+    y = x * x;
  while (ab(x0)>e){
  
     x0 = ((x0*poww(-1, i)*y)/i);
