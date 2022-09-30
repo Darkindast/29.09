@@ -31,14 +31,15 @@ double f2(double x, int n){
 }
  
 int main(){
-    double x;
+    double x, f2r;
     int n;
     
     printf("Введите степень  x:\n");
     scanf("%lf", &x);
     printf("Введите количество членов в ряде  n:\n");
     scanf("%d", &n);
-    printf("%lf\n",f2(x, n));
+    f2r = f2(x, n);
+    printf("%lf\n",f2r);
     
     return 0;
 }
