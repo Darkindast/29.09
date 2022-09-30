@@ -19,12 +19,12 @@ double ab(double chislo){
 }
  
 double f2(double x, int n){
-    double x0 = 1, y=x*x, sum = x0;
+    double p = 1, y=x*x, sum = p;
     
     for(int i = 1; i <n; i++){
-        x0 = ((x0*poww(-1, i)*y)/i);
-        sum+=x0;
-        x0 = ab(x0);
+        p = ((p*poww(-1, i)*y)/i);
+        sum+=p;
+        p = ab(p);
         
     }
     return sum;
